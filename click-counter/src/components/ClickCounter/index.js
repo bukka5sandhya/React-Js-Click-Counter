@@ -12,7 +12,7 @@ class ClickCounter extends Component{
         const {count} = this.state
         return(
             <div className="bg-container">
-                <h1 className="heading">The Button has beeen clicked{' '} <span className="click-element">{count} </span>times</h1>
+                <h1 className="heading">The Button has beeen clicked{' '} <br /><span className="click-element">{count} </span>times</h1>
                 <p className="description">Click the button to increase the count!</p>
                 <button onClick={this.onIncrement} className="button">Click Me!</button>
             </div>
